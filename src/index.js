@@ -20,6 +20,15 @@ const theme = createTheme({
     myParagraph: {
       color: '#6F757C',
       fontSize: '1rem'
+    },
+    mycard: {
+      color: '#FEF7EE',
+      fontSize: '0.75rem',
+    },
+    mycardPrice: {
+      color: '#FEF7EE',
+      fontSize: '0.75rem',
+      backgroundColor: '#BEE3CC'
     }
   },
 })
