@@ -1,15 +1,17 @@
 .App {
-  /* height: 100vh; */
+  /* position: fixed; */
   width: 100vw;
+}
+.background-container {
+  height: fit-content;
   position: relative;
 }
 .imagebackground {
-  /* height: 30vh; */
+  height: 30vh;
   background-size: cover;
   background-image: url("./assets/bg-cafe.jpg");
-  background-position: center;
 }
 .background {
-  /* height: 70vh; */
+  height: 70vh;
   background-color: #111315;
 }

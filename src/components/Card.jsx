@@ -17,18 +17,6 @@ function Cards() {
         })
     }, [])
   return (
-    // <div>card
-    //     <div>
-    //         {data.map((item) => (
-    //             <div key={item.id}>
-    //                 <img src={item.image} alt={item.name} />
-    //                 <p>{item.name}</p>
-    //                 <p>{item.price}</p>
-    //                 <p>{item.rating}</p>
-    //             </div>
-    //         ))}
-    //     </div>
-    // </div>
     <Grid container spacing={2}>
       {data.map((item) => (
         <Grid item key={item.id} xs={12} sm={6} md={4}>
