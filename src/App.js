@@ -6,10 +6,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div className='background-container'>
+      <div className='background-container'>
       <div className='imagebackground'></div>
-      <div className='background'></div>
-      </div> */}
+      </div>
       <Container />
     </div>
   );

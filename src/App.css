@@ -1,17 +1,16 @@
 .App {
   /* position: fixed; */
   width: 100vw;
+  background-color: #111315;
+  min-height: 200vh;
+  overflow: hidden;
 }
 .background-container {
-  height: fit-content;
+  height: 40vh;
   position: relative;
 }
 .imagebackground {
-  height: 30vh;
+  height: 100%;
   background-size: cover;
   background-image: url("./assets/bg-cafe.jpg");
-}
-.background {
-  height: 70vh;
-  background-color: #111315;
 }
