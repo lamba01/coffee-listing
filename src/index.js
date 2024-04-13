@@ -16,11 +16,13 @@ const theme = createTheme({
     myHeader: {
       color: '#FEF7EE',
       fontSize: '2rem',
-      paddingBottom: '10px'
+      paddingBottom: '10px',
+      fontWeight: '600'
     },
     myParagraph: {
       color: '#6F757C',
-      fontSize: '1rem'
+      fontSize: '1rem',
+      fontWeight: '500'
     },
     mycard: {
       color: '#FEF7EE',

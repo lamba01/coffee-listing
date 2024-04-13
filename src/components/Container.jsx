@@ -59,6 +59,7 @@ function CardContainer() {
             pt: '5px',
             pb: '5px',
             color: '#FEF7EE',
+            fontWeight: '400',
             fontSize: '14px',
             ...(allProductsActive && { backgroundColor: '#6F757C' }), // Apply active styles if allProductsActive is true
           }}
@@ -70,6 +71,7 @@ function CardContainer() {
           onClick={handleAvailableProductsClick}
           sx={{
             textTransform: 'none',
+            fontWeight: '400',
             borderRadius: '10px',
             ...(availableProductsActive && { backgroundColor: '#6F757C' }), // Apply active styles if availableProductsActive is true
           }}
