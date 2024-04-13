@@ -1,23 +1,29 @@
 import React from 'react'
 import { Container, Typography, Button, Box } from '@mui/material'
 import Card from './Card'
+import BgdVector from '../assets/vector.svg'
 
 function cardContainer() {
   return (
     <Container sx=
-    {{width: '80vw', 
-    p: 5,
+    {{width: '85vw', 
+    height: 'fit-content',
+    pt: 10,
+    pb: 10,
+    mt: -15,
     backgroundColor: '#1B1D1F', 
-    position: 'absolute', 
-    top: '90%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
+    position: 'relative',
     zIndex: 10,        
     textAlign: 'center',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    borderRadius: '10px',
+    backgroundImage: `url(${BgdVector})`,
+    backgroundSize: '200px 200px', 
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'calc(50% + 100px) top',
     }}>
       <Typography variant='myHeader'>
           Our Collection
@@ -36,3 +42,4 @@ function cardContainer() {
 }
 
 export default cardContainer
+

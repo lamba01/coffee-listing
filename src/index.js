@@ -15,7 +15,8 @@ const theme = createTheme({
   typography: {
     myHeader: {
       color: '#FEF7EE',
-      fontSize: '2rem'
+      fontSize: '2rem',
+      paddingBottom: '10px'
     },
     myParagraph: {
       color: '#6F757C',

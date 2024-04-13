@@ -19,14 +19,14 @@ function Cards() {
         })
     }, [])
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing='30px' justifyContent="center" alignItems='center' width='85%'>
       {data.map((item) => (
         <Grid item key={item.id} xs={12} sm={6} md={4}>
           <Card sx={{background: 'none', boxShadow: 'none', p: '0px'}}>
             <CardActionArea>
               <CardMedia
                 component='img'
-                height='150'
+                height='160'
                 image={item.image}
                 alt={item.name}
                 sx={{borderRadius: '10px', position: 'relative'}}

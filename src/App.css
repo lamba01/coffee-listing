@@ -1,16 +1,21 @@
 .App {
-  /* position: fixed; */
   width: 100vw;
   background-color: #111315;
-  min-height: 200vh;
-  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+  height: max-content;
+  padding-bottom: 100px;
 }
 .background-container {
   height: 40vh;
-  position: relative;
 }
 .imagebackground {
   height: 100%;
   background-size: cover;
   background-image: url("./assets/bg-cafe.jpg");
+}
+@media only screen and (min-height: 800px) and (max-width: 1024px) {
+  .background-container {
+    height: 30vh;
+  }
 }
