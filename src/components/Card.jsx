@@ -4,7 +4,7 @@ import { Card, CardContent, CardMedia, CardActionArea, Typography, Grid, Box } f
 import StarFill from '../assets/Star_fill.svg'
 import Star from '../assets/Star.svg'
 
-function Cards() {
+function Cards({ allProducts }) {
     const [data, setdata] = useState([])
 
     useEffect(() => {
@@ -18,9 +18,10 @@ function Cards() {
             console.log(error)
         })
     }, [])
+    const filteredData = allProducts ? data : data.filter(item => item.available);
   return (
     <Grid container spacing='30px' justifyContent="center" alignItems='center' width='85%'>
-      {data.map((item) => (
+      {filteredData.map((item) => (
         <Grid item key={item.id} xs={12} sm={6} md={4}>
           <Card sx={{background: 'none', boxShadow: 'none', p: '0px'}}>
             <CardActionArea>
@@ -75,3 +76,5 @@ function Cards() {
 }
 
 export default Cards
+
+
