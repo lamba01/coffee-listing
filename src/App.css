@@ -7,15 +7,10 @@
   padding-bottom: 100px;
 }
 .background-container {
-  height: 40vh;
+  height: 30vh;
 }
 .imagebackground {
   height: 100%;
   background-size: cover;
   background-image: url("./assets/bg-cafe.jpg");
-}
-@media only screen and (min-height: 800px) and (max-width: 1024px) {
-  .background-container {
-    height: 30vh;
-  }
 }
