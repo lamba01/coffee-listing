@@ -17,12 +17,12 @@ const theme = createTheme({
       color: '#FEF7EE',
       fontSize: '2rem',
       paddingBottom: '10px',
-      fontWeight: '600'
+      fontWeight: '700'
     },
     myParagraph: {
       color: '#6F757C',
       fontSize: '1rem',
-      fontWeight: '500'
+      fontWeight: '600'
     },
     mycard: {
       color: '#FEF7EE',
