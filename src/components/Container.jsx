@@ -24,7 +24,7 @@ function CardContainer() {
         height: 'fit-content',
         pt: 10,
         pb: 10,
-        mt: -15,
+        mt: -20,
         backgroundColor: '#1B1D1F',
         position: 'relative',
         zIndex: 10,
