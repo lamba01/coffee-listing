@@ -6,7 +6,6 @@ function cardContainer() {
   return (
     <Container sx=
     {{width: '80vw', 
-    m: 3, 
     p: 5,
     backgroundColor: '#1B1D1F', 
     position: 'absolute', 
@@ -20,7 +19,7 @@ function cardContainer() {
       <Typography variant='myHeader'>
           Our Collection
       </Typography>
-      <Typography variant='myParagraph' sx={{width: '70%'}}>
+      <Typography variant='myParagraph' sx={{ mt: 1, maxWidth: '500px', margin: 'auto' }}>
          Introducing our Coffee Collection, a selection of unique coffees from 
          different roast types and origins, expertly roasted in small batches and shipped fresh weekly.
       </Typography>

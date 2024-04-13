@@ -26,9 +26,11 @@ const theme = createTheme({
       fontSize: '0.75rem',
     },
     mycardPrice: {
-      color: '#FEF7EE',
+      color: '#111315',
       fontSize: '0.75rem',
-      backgroundColor: '#BEE3CC'
+      backgroundColor: '#BEE3CC',
+      padding: '5px',
+      borderRadius: '5px'
     }
   },
 })
